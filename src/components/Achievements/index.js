@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 
-function Leaderboards(){
+function Achievements(){
     return(
         <div>
 
@@ -9,4 +9,4 @@ function Leaderboards(){
     );
 };
 
-export default Leaderboards;
+export default Achievements;
