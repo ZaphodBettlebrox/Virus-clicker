@@ -3,48 +3,37 @@ import "./style.css";
 
 
 function Navbar(){
+
     return (
+        
         <div>
-            {/* <div className="row nav">
-                <div className="col-4 ">
-                    <button className="navbarstore">store</button>
-                </div>
-                <div className="col-4 ">
-                <button className="navbarclicker">Virus Clicker</button>
-
-                </div>
-                <div className="col-4">
-                <button className="navbarawards">Awards</button>
-
-                </div>
-            </div> */}
-            <div class="tabbar">
-  <label class="tabbar__item">
-    <input type="radio" name="tabbar-a" checked="checked"/>
-    <button class="tabbar__button">
-      <i class="tabbar__icon ion-stop"></i>
-      <div class="tabbar__label">One</div>
+            <div class="tabbar tabbar--material">
+  <label class="tabbar__item tabbar--material__item">
+    <input type="radio" name="tabbar-material-c" checked="checked"/>
+    <button class="tabbar__button tabbar--material__button">
+      <i class="tabbar__icon tabbar--material__icon zmdi zmdi-phone"></i>
+      <div class="tabbar__label tabbar--material__label">Call</div>
     </button>
   </label>
 
-  <label class="tabbar__item">
-    <input type="radio" name="tabbar-a"/>
-    <button class="tabbar__button">
-      <i class="tabbar__icon ion-record"></i>
-      <div class="tabbar__label">Two</div>
+  <label class="tabbar__item tabbar--material__item">
+    <input type="radio" name="tabbar-material-c"/>
+    <button class="tabbar__button tabbar--material__button">
+      <i class="tabbar__icon tabbar--material__icon zmdi zmdi-favorite"></i>
+      <div class="tabbar__label tabbar--material__label">Favorites</div>
     </button>
   </label>
 
-  <label class="tabbar__item">
-    <input type="radio" name="tabbar-a"/>
-    <button class="tabbar__button">
-      <i class="tabbar__icon ion-star"></i>
-      <div class="tabbar__label">Three</div>
+  <label class="tabbar__item tabbar--material__item">
+    <input type="radio" name="tabbar-material-c"/>
+    <button class="tabbar__button tabbar--material__button">
+      <i class="tabbar__icon tabbar--material__icon zmdi zmdi-delete"></i>
+      <div class="tabbar__label tabbar--material__label">Delete</div>
     </button>
   </label>
-</div>
-            
-        </div>
+</div>    
+
+    </div>
     );
     
 };

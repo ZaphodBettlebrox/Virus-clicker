@@ -20,8 +20,8 @@
 }
 
 .nav{
-    position: fixed;
-    height: 100px;
-    bottom: 0;
+    position: fixed !important;
+    height: 100px  !important;
+    bottom: 0  !important;
     width: 100%;
 }
