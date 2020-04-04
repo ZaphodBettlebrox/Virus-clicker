@@ -1,13 +1,16 @@
 import React from "react";
 import "./style.css";
+import settings from "../../assets/Settings_White.PNG"
 
 function SettingsButton(){
     return(
         <div>
             <div className="row settingsbutton">
-            <h1>
-                settings
-            </h1>
+            <img
+              className="settings-logo"
+              src={settings}
+              alt="Settings"
+            ></img>
             </div>
         </div>
     )
