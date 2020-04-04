@@ -7,7 +7,7 @@ import Leaderboards from "../Leaderboards";
 function PageAwards() {
   return (
     <div>
-      <div className="row awardstitle">
+      <div className="row awardsPage">
         <h1>
           Awards
         </h1>

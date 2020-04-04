@@ -3,32 +3,75 @@ import "./style.css";
 
 
 function Navbar(){
+    function DisplayAwards(){
+        console.log("you clicked me!");
+
+        const dspStore = document.querySelector(".storePage");
+        const dspClicker = document.querySelector(".clickerPage");
+        const dspAwards = document.querySelector(".awardsPage");
+
+            dspAwards.style.display = "block";
+            dspClicker.style.display = "none";
+            dspStore.style.display = "none";
+
+
+        
+    }
+    function DisplayClicker(){
+        console.log("you clicked me!");
+
+        const dspStore = document.querySelector(".storePage");
+        const dspClicker = document.querySelector(".clickerPage");
+        const dspAwards = document.querySelector(".awardsPage");
+   
+            dspClicker.style.display = "block";
+            dspAwards.style.display = "none";
+            dspStore.style.display = "none";
+
+        
+    }
+    function DisplayStore(){
+        console.log("you clicked me!");
+
+        const dspStore = document.querySelector(".storePage");
+        const dspClicker = document.querySelector(".clickerPage");
+        const dspAwards = document.querySelector(".awardsPage");
+            
+            dspStore.style.display = "block";
+            dspAwards.style.display = "none";
+            dspClicker.style.display = "none";
+
+    
+
+        
+    }
+
 
     return (
         
         <div>
-            <div class="tabbar tabbar--material">
-  <label class="tabbar__item tabbar--material__item">
-    <input type="radio" name="tabbar-material-c" checked="checked"/>
-    <button class="tabbar__button tabbar--material__button">
-      <i class="tabbar__icon tabbar--material__icon zmdi zmdi-phone"></i>
-      <div class="tabbar__label tabbar--material__label">Call</div>
+            <div className="tabbar tabbar--material">
+  <label className="tabbar__item tabbar--material__item">
+    <input type="radio" name="tabbar-material-c" onClick={DisplayStore}/>
+    <button className="tabbar__button tabbar--material__button storeBtn" >
+      <i className="tabbar__icon tabbar--material__icon zmdi zmdi-phone"></i>
+      <div className="tabbar__label tabbar--material__label">Store</div>
     </button>
   </label>
 
-  <label class="tabbar__item tabbar--material__item">
-    <input type="radio" name="tabbar-material-c"/>
-    <button class="tabbar__button tabbar--material__button">
-      <i class="tabbar__icon tabbar--material__icon zmdi zmdi-favorite"></i>
-      <div class="tabbar__label tabbar--material__label">Favorites</div>
+  <label className="tabbar__item tabbar--material__item">
+    <input type="radio" name="tabbar-material-c"onClick={DisplayClicker} />
+    <button className="tabbar__button tabbar--material__button clickerBtn" >
+      <i className="tabbar__icon tabbar--material__icon zmdi zmdi-favorite"></i>
+      <div className="tabbar__label tabbar--material__label">Virus Clicker</div>
     </button>
   </label>
 
-  <label class="tabbar__item tabbar--material__item">
-    <input type="radio" name="tabbar-material-c"/>
-    <button class="tabbar__button tabbar--material__button">
-      <i class="tabbar__icon tabbar--material__icon zmdi zmdi-delete"></i>
-      <div class="tabbar__label tabbar--material__label">Delete</div>
+  <label className="tabbar__item tabbar--material__item">
+    <input type="radio" name="tabbar-material-c" onClick={DisplayAwards}/>
+    <button className="tabbar__button tabbar--material__button awardBtn " >
+      <i className="tabbar__icon tabbar--material__icon zmdi zmdi-delete"></i>
+      <div className="tabbar__label tabbar--material__label">Awards</div>
     </button>
   </label>
 </div>    
