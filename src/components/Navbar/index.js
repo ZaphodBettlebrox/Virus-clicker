@@ -19,19 +19,19 @@ function Navbar(){
                 </div>
             </div> */}
             <div class="tabbar">
-  <label class="tabbar__item">
+  <label className="tabbar__item">
     <input type="radio" name="tabbar-a" checked="checked"/>
-    <button class="tabbar__button">
-      <i class="tabbar__icon ion-stop"></i>
-      <div class="tabbar__label">One</div>
+    <button className="tabbar__button">
+      <i className="tabbar__icon ion-stop"></i>
+      <div className="tabbar__label">One</div>
     </button>
   </label>
 
-  <label class="tabbar__item">
+  <label className="tabbar__item">
     <input type="radio" name="tabbar-a"/>
-    <button class="tabbar__button">
+    <button className="tabbar__button">
       <i class="tabbar__icon ion-record"></i>
-      <div class="tabbar__label">Two</div>
+      <div className="tabbar__label">Two</div>
     </button>
   </label>
 
