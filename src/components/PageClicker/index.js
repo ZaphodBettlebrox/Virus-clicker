@@ -4,7 +4,10 @@ import "./style.css";
 function PageClicker() {
   return (
     <div>
-      <div className=" clickertitle">
+        <div className="background">
+        </div>
+
+      <div className="clickertitle">
         <h1>Virus Clicker</h1>
       </div>
       <div className="row"></div>
