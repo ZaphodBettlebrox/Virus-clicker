@@ -1,23 +1,23 @@
 import React from "react";
 import Navbar from "../components/Navbar";
-
+import "./style.css";
 import SettingsButton from "../components//SettingsButton";
 import PageController from "../components//PageController";
 
 function Home() {
   return (
     <div>
-        <div className="row">
+        <div >
           <SettingsButton />
         </div>
 
         {/* body content that switches based on navbar click  */}
-        <div className="row">
+        <div>
           <PageController />
         </div>
         {/* end here */}
 
-        <div className="row">
+        <div>
           <Navbar />
         </div>
 
