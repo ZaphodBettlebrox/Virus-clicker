@@ -7,7 +7,7 @@ function PageClicker() {
         <div className="background">
         </div>
 
-      <div className="clickertitle">
+      <div className="clickerPage">
         <h1>Virus Clicker</h1>
       </div>
       <div className="row"></div>
