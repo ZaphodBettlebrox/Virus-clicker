@@ -7,14 +7,17 @@ import PageAwards from "../PageAwards";
 function PageController(){
     return(
         <div>
-            <div className="row">
+            <div className="row pages">
+                
+            <div className="col-4 padding-zero">
                 <PageClicker/>
             </div>
-            <div className="row">
+            <div className="col-4 padding-zero">
                 <PageStore/>
             </div>
-            <div className="row">
+            <div className="col-4 padding-zero">
                 <PageAwards/>
+            </div>
             </div>
         </div>
     );
