@@ -4,7 +4,6 @@ import "./style.css";
 
 function Navbar(){
     function DisplayAwards(){
-        console.log("you clicked me!");
 
         const dspStore = document.querySelector(".storePage");
         const dspClicker = document.querySelector(".clickerPage");
@@ -18,7 +17,6 @@ function Navbar(){
         
     }
     function DisplayClicker(){
-        console.log("you clicked me!");
 
         const dspStore = document.querySelector(".storePage");
         const dspClicker = document.querySelector(".clickerPage");
@@ -31,7 +29,6 @@ function Navbar(){
         
     }
     function DisplayStore(){
-        console.log("you clicked me!");
 
         const dspStore = document.querySelector(".storePage");
         const dspClicker = document.querySelector(".clickerPage");

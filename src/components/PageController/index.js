@@ -13,12 +13,12 @@ function PageController(){
             <div className="padding-zero">
                 <PageClicker/>
             </div>
-            {/* <div className="padding-zero">
+            <div className="padding-zero">
                 <PageStore/>
             </div>
             <div className="padding-zero">
                 <PageAwards/>
-            </div> */}
+            </div>
             </div>
         </div>
     );
