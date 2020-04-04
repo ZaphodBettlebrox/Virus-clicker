@@ -7,7 +7,6 @@ import gear from "../../assets/Gear_White.png";
 
 function SettingsButton(){
     function DisplaySettings(){
-        console.log("you clicked me!");
 
         const settings = document.querySelector(".settingsbox");
         if (settings.style.display === "block") {
@@ -33,9 +32,6 @@ function SettingsButton(){
             ></img></button>
             </div>
            
-            {/* <div className="settingsbox">
-                <Settings/>
-            </div> */}
         </div>
     )
 }
