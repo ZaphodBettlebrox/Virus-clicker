@@ -4,6 +4,7 @@ import PageClicker from "../PageClicker";
 import PageStore from "../PageStore";
 import PageAwards from "../PageAwards";
 
+
 function PageController(){
     return(
         <div>
