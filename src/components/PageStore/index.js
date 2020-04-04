@@ -4,7 +4,7 @@ import "./style.css";
 function PageStore(){
     return(
         <div>
-      <div className="row storetitle">
+      <div className="row storePage">
         <h1>Store</h1>
       </div>
       <div className="row"></div>
