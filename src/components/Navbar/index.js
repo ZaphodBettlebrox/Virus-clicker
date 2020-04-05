@@ -1,6 +1,9 @@
 import React from "react";
 import "./style.css";
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faVirus } from '@fortawesome/free-solid-svg-icons'
+import { faStore } from '@fortawesome/free-solid-svg-icons'
+import { faMedal } from '@fortawesome/free-solid-svg-icons'
 
 function Navbar(){
     function DisplayAwards(){
@@ -49,26 +52,23 @@ function Navbar(){
         <div>
             <div className="tabbar tabbar--material">
   <label className="tabbar__item tabbar--material__item">
-    <input type="radio" name="tabbar-material-c" onClick={DisplayStore}/>
+    <input type="radio" name="tabbar-material-b" onClick={DisplayStore}/>
     <button className="tabbar__button tabbar--material__button storeBtn" >
-      <i className="tabbar__icon tabbar--material__icon zmdi zmdi-phone"></i>
-      <div className="tabbar__label tabbar--material__label">Store</div>
+    <i><FontAwesomeIcon icon={faStore} size="2x" color="#29bcd6"/></i>
     </button>
   </label>
 
   <label className="tabbar__item tabbar--material__item">
-    <input type="radio" name="tabbar-material-c"onClick={DisplayClicker} />
+    <input type="radio" name="tabbar-material-b"onClick={DisplayClicker} defaultChecked/>
     <button className="tabbar__button tabbar--material__button clickerBtn" >
-      <i className="tabbar__icon tabbar--material__icon zmdi zmdi-favorite"></i>
-      <div className="tabbar__label tabbar--material__label">Virus Clicker</div>
+    <i><FontAwesomeIcon icon={faVirus} size="2x" color="#29bcd6" /> </i>
     </button>
   </label>
 
   <label className="tabbar__item tabbar--material__item">
-    <input type="radio" name="tabbar-material-c" onClick={DisplayAwards}/>
+    <input type="radio" name="tabbar-material-b" onClick={DisplayAwards}/>
     <button className="tabbar__button tabbar--material__button awardBtn " >
-      <i className="tabbar__icon tabbar--material__icon zmdi zmdi-delete"></i>
-      <div className="tabbar__label tabbar--material__label">Awards</div>
+    <i><FontAwesomeIcon icon={faMedal} size="2x" color="#29bcd6"/></i>
     </button>
   </label>
 </div>    

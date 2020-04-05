@@ -8,15 +8,15 @@ import PageAwards from "../PageAwards";
 function PageController(){
     return(
         <div>
-            <div className="row pages">
+            <div>
                 
-            <div className="padding-zero">
+            <div>
                 <PageClicker/>
             </div>
-            <div className="padding-zero">
+            <div>
                 <PageStore/>
             </div>
-            <div className="padding-zero">
+            <div >
                 <PageAwards/>
             </div>
             </div>
