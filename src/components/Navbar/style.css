@@ -19,9 +19,8 @@
 
 }
 
-.nav{
-    position: fixed !important;
-    height: 100px  !important;
-    bottom: 0  !important;
-    width: 100%;
+
+
+.virusIcon{
+    color: #29bcd6;
 }

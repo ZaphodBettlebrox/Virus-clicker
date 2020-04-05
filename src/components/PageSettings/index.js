@@ -5,8 +5,8 @@ import Settingslogo from "../../assets/Settings_Blue.PNG";
 function PageSettings() {
   return (
     <div>
-      <div className="row settingsbox">
-        <div className="row">
+      <div className="settingsbox">
+        <div>
           <img
             className="Pagesettings-logo"
             src={Settingslogo}

@@ -9,6 +9,10 @@ import Settings from "../components/PageSettings";
 function Home() {
   return (
     <div>
+        <div>
+          <PageController />
+        </div>
+        {/* end here */}
         <div >
           <SettingsButton />
         </div>
@@ -16,10 +20,6 @@ function Home() {
             <Settings/>
         </div>
         {/* body content that switches based on navbar click  */}
-        <div>
-          <PageController />
-        </div>
-        {/* end here */}
 
         <div>
           <Navbar />
