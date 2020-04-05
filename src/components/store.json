@@ -1,0 +1,54 @@
+
+[
+
+    {
+        "id": 1,
+        "name": "Bat",
+        "image": "../assets/batpixel.png",
+        "description": "Imma bat"
+
+    },
+    {
+        "id": 2,
+        "name": "Human",
+        "image": "../assets/shopperpixel.png",
+        "description": "Imma human"
+
+    },
+    {
+        "id": 3,
+        "name": "Restraunt",
+        "image": "../assets/restrauntpixel.png",
+        "description": "Imma restraunt"
+
+    },
+    {
+        "id": 4,
+        "name": "Hotel",
+        "image": "../assets/hotelpixel.png",
+        "description": "Imma hotel"
+
+    },
+    {
+        "id": 5,
+        "name": "Airport",
+        "image": "../assets/airportpixel.png",
+        "description": "Imma airport"
+
+    },
+    {
+        "id": 6,
+        "name": "Town",
+        "image": "../assets/townpixel.png",
+        "description": "Imma town"
+
+    },
+    {
+        "id": 7,
+        "name": "City",
+        "image": "../assets/citypixel.png",
+        "description": "Imma city"
+
+    }
+    
+]

@@ -57,12 +57,14 @@ function Navbar(){
   </label>
 
   <label className="tabbar__item tabbar--material__item">
-    <input type="radio" name="tabbar-material-c"onClick={DisplayClicker} />
+    <input type="radio" name="tabbar-material-c"onClick={DisplayClicker} defaultChecked/>
     <button className="tabbar__button tabbar--material__button clickerBtn" >
       <i className="tabbar__icon tabbar--material__icon zmdi zmdi-favorite"></i>
       <div className="tabbar__label tabbar--material__label">Virus Clicker</div>
     </button>
   </label>
+
+
 
   <label className="tabbar__item tabbar--material__item">
     <input type="radio" name="tabbar-material-c" onClick={DisplayAwards}/>

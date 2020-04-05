@@ -1,3 +1,15 @@
 .storePage{
     display: none;
+    background: black;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+}
+.Pagestore-logo{
+    margin-top: 4vh;
+    width: 50vw;
+}
+.storemoney{
+  margin-top: 2vh; 
 }

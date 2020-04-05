@@ -19,7 +19,7 @@ function SettingsButton(){
 
     return(
         <div>
-            <div className="row">
+            <div>
             <button className="settings-button" onClick={DisplaySettings}><img
               className="settings-gear"
               src={gear}
