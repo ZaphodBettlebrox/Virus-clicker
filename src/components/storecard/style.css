@@ -1,18 +1,151 @@
-.storecard{
+.storecard {
+  width: 100vw;
+  height: 13vh;
+  margin-top: 1vh;
+  text-shadow: -3px 0 black, 0 2px black, 3px 0 black, 0 -2px black;
+}
+.storecardbackground{
     width: 100vw;
-    height: 13vh;
-    background: cyan;
-    margin-top: 2vh;
-}
-.scpicture{
-    width: 16vw;
-}
-.storecardimg{
     position: absolute;
+    left: 0;
 }
-.arrowdown{
-    width: 4vw;
+.scpicture {
+  max-width: 19vw;
+  max-height: 10vh;
 }
-.arrowup{
-    width: 4vw;
+.storecardimg {
+  padding-top: 1vh;
+  position: absolute;
+  width: 23vw;
+  height: 12vh;
+  filter: drop-shadow(4px 5px rgb(48, 48, 48));
+}
+.arrowdown {
+  width: 6vw;
+  left: 23vw;
+  margin-top: 9vh;
+  position: absolute;
+  display: block;
+  filter: drop-shadow(3px 3px rgb(48, 48, 48));
+}
+.arrowup {
+  width: 6vw;
+  left: 23vw;
+  margin-top: 9vh;
+  position: absolute;
+  transform: rotate(180deg);
+  display: none;
+  filter: drop-shadow(-3px -3px rgb(48, 48, 48));
+}
+.storecardtitle {
+    top: 1vh;
+    position: relative;
+    text-align: center;
+}
+.storecardtitleup{
+    z-index: 3;
+}
+.storecardcost {
+  margin-top: 4vh;
+  position: absolute;
+  margin-left: 32vw;
+}
+.scbuy {
+  width: 20vw;
+  left: 37vw;
+  top: -0.5vh;
+  position: relative;
+  filter: drop-shadow(4px 4px rgb(48, 48, 48));
+}
+.storecardowned {
+  position: absolute;
+  right: 1vw;
+  margin-top: -3.5vh;
+  font-size: 3vw;
+}
+.buyclick {
+  animation-name: buyclick;
+  animation-duration: 0.7s;
+  animation-timing-function: ease-in-out;
+}
+.storecarddesc {
+  position: absolute;
+  background: rgb(0, 0, 0);
+  width: 100vw;
+  height: 30vh;
+  margin-top: 9vh;
+  z-index: 1;
+  display: none;
+}
+.descspacing {
+  letter-spacing: 0.5vh;
+  line-height: 5vh;
+}
+.descblink {
+  position: absolute;
+  left: 75vw;
+  top: 21.2vh;
+  animation-name: flash;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+@keyframes buyclick {
+  0% {
+    width: 20vw;
+    top: -0.5vh;
+    left: 37vw;
+    position: relative;
+    filter: drop-shadow(4px 4px rgb(48, 48, 48));
+  }
+  20% {
+    width: 13vw;
+    top: -0.5vh;
+    left: 37vw;
+    position: relative;
+    filter: drop-shadow(1px 1px rgb(48, 48, 48));
+  }
+  30% {
+    width: 22vw;
+    top: -0.5vh;
+    left: 37vw;
+    position: relative;
+    transform: rotate(0deg);
+    filter: drop-shadow(6px 7px rgb(70, 70, 70));
+  }
+  40% {
+    width: 22vw;
+    top: -0.5vh;
+    left: 37vw;
+    position: relative;
+    transform: rotate(5deg);
+  }
+  60% {
+    width: 22vw;
+    top: -0.5vh;
+    left: 37vw;
+    position: relative;
+    transform: rotate(-5deg);
+    filter: drop-shadow(6px 7px rgb(70, 70, 70));
+  }
+  100% {
+    width: 20vw;
+    top: -0.5vh;
+    left: 37vw;
+    position: relative;
+    filter: drop-shadow(4px 4px rgb(48, 48, 48));
+  }
+}
+@keyframes flash {
+  0% {
+    color: rgb(39, 188, 214);
+  }
+  49% {
+    color: rgb(39, 188, 214);
+  }
+  50% {
+    color: transparent;
+  }
+  99% {
+    color: transparent;
+  }
 }

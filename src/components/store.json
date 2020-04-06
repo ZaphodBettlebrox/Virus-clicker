@@ -4,50 +4,57 @@
     {
         "id": 1,
         "name": "Bat",
-        "image": "../assets/batpixel.png",
-        "description": "Imma bat"
+        "image": "https://res.cloudinary.com/dbwbzapre/image/upload/v1586064063/batpixel_tqmca8.png",
+        "description": "Nothing bad can happen from infecting a bat, no one will eat that.. will they?",
+        "background":"https://res.cloudinary.com/dbwbzapre/image/upload/v1586134081/batbackgroundpixel_jxxeup.png"
 
     },
     {
         "id": 2,
         "name": "Human",
-        "image": "../assets/shopperpixel.png",
-        "description": "Imma human"
+        "image": "https://res.cloudinary.com/dbwbzapre/image/upload/v1586064063/shopperpixel_xqaqyj.png",
+        "description": "Imma human",
+        "background":"https://res.cloudinary.com/dbwbzapre/image/upload/v1586148054/shopperbackgroundpixel_qhkays.png"
 
     },
     {
         "id": 3,
         "name": "Restraunt",
-        "image": "../assets/restrauntpixel.png",
-        "description": "Imma restraunt"
+        "image": "https://res.cloudinary.com/dbwbzapre/image/upload/v1586064063/restrauntpixel_yvm54b.png",
+        "description": "Imma restraunt",
+        "background":"https://res.cloudinary.com/dbwbzapre/image/upload/v1586148047/restrauntbackgroundpixel_ygj6km.png"
 
     },
     {
         "id": 4,
         "name": "Hotel",
-        "image": "../assets/hotelpixel.png",
-        "description": "Imma hotel"
+        "image": "https://res.cloudinary.com/dbwbzapre/image/upload/v1586064063/hotelpixel_glhmkg.png",
+        "description": "Imma hotel",
+        "background":"https://res.cloudinary.com/dbwbzapre/image/upload/v1586148033/hotelbackgroundpixel_yusfza.png"
 
     },
     {
         "id": 5,
         "name": "Airport",
-        "image": "../assets/airportpixel.png",
-        "description": "Imma airport"
+        "image": "https://res.cloudinary.com/dbwbzapre/image/upload/v1586064063/airportpixel_hgkkco.png",
+        "description": "Imma airport",
+        "background":"https://res.cloudinary.com/dbwbzapre/image/upload/v1586147967/airportbackgroundpixel_e73atq.png"
 
     },
     {
         "id": 6,
         "name": "Town",
-        "image": "../assets/townpixel.png",
-        "description": "Imma town"
+        "image": "https://res.cloudinary.com/dbwbzapre/image/upload/v1586075441/townpixel2_qjj8pb.png",
+        "description": "Imma town",
+        "background": "https://res.cloudinary.com/dbwbzapre/image/upload/v1586148065/townbackgroundpixel_n0yjfq.png"
 
     },
     {
         "id": 7,
         "name": "City",
-        "image": "../assets/citypixel.png",
-        "description": "Imma city"
+        "image": "https://res.cloudinary.com/dbwbzapre/image/upload/v1586064063/citypixel_iweud2.png",
+        "description": "Imma city",
+        "background": "https://res.cloudinary.com/dbwbzapre/image/upload/v1586147990/citybackgroundpixel_jck0tg.png"
 
     }
     

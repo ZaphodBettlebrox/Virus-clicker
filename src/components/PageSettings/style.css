@@ -18,6 +18,12 @@
     left: 14.5vw;
     top: 3vh;
 }
+.Pagesettings-X{
+    width: 5vw;
+    position: fixed;
+    right: 14vw;
+    top: 9vh;
+}
 .Pixlefont{
     font-family: 'Press Start 2P';
     color: rgb(39, 188, 214);
