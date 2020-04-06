@@ -26,83 +26,70 @@
   overflow: hidden;
 }
 
-/* .virusA {
-    
-    
-} */
-/* .xaxis {
-    animation: x 2s linear 2s infinite normal;
-    z-index: -2 !important;
-    position: fixed;
-  
-  }
-  
-  .yaxis {
-    animation: y 3s linear 2s infinite normal;
-  
-  }
-  
-  @keyframes xaxis {
-      0% {
-          transform: translateX(calc(100vw - 100vw));
-          
-        }
-        25% {
-          transform: translateX(calc(100vw - 100vw));
-        }
-        50% {
-          transform: translateX(calc(100vw - 100vw));
-        }
-    100% {
-      transform: translateX(calc(100vw - 100vw));
-    }
-  }
- @keyframes yaxis {
-      0% {
-          transform:  translateY(calc(100vh - 100vh)) scale(0.5);
-        
-        } 
-    100% {
-      transform:  translateY(calc(100vh - 100vh)) scale(3);
-    }
-  }
 
-.x {
-  animation: x 2s linear infinite normal;
+.x1 {
+  animation: xaxis1 2s linear 2s infinite normal;
   z-index: -2 !important;
   position: fixed;
-
 }
 
-.y {
-  animation: y 3s linear infinite normal;
-
+.y1 {
+  animation: yaxis1 3s linear 2s infinite normal;
 }
 
-@keyframes x {
-    0% {
-        transform: translateX(calc(100vw - 50vw));
-        
-      }
-      25% {
-        transform: translateX(calc(100vw - 60vw));
-      }
-      50% {
-        transform: translateX(calc(100vw - 65vw));
-      }
+@keyframes xaxis1 {
+  0% {
+    transform: translateX(calc(100vw - 100vw));
+  }
+  25% {
+    transform: translateX(calc(100vw - 100vw));
+  }
+  50% {
+    transform: translateX(calc(100vw - 100vw));
+  }
+  100% {
+    transform: translateX(calc(100vw - 100vw));
+  }
+}
+@keyframes yaxis1 {
+  0% {
+    transform: translateY(calc(100vh - 100vh)) scale(0.5);
+  }
+  100% {
+    transform: translateY(calc(100vh - 1vh)) scale(3);
+  }
+}
+
+.x2 {
+  animation: xaxis2 2s linear infinite normal;
+  z-index: -2 !important;
+  position: fixed;
+}
+
+.y2 {
+  animation: yaxis2 3s linear infinite normal;
+}
+
+@keyframes xaxis2 {
+  0% {
+    transform: translateX(calc(100vw - 50vw));
+  }
+  25% {
+    transform: translateX(calc(100vw - 60vw));
+  }
+  50% {
+    transform: translateX(calc(100vw - 65vw));
+  }
   100% {
     transform: translateX(calc(100vw - 50vw));
   }
 }
 
-@keyframes y {
-    0% {
-        transform:  translateY(calc(100vh - 110vh)) scale(0.5);
-      
-      } 
+@keyframes yaxis2 {
+  0% {
+    transform: translateY(calc(100vh - 110vh)) scale(0.5);
+  }
   100% {
-    transform:  translateY(calc(100vh - 1vh)) scale(3);
+    transform: translateY(calc(100vh - 1vh)) scale(3);
   }
 }
-
- */

@@ -10,12 +10,19 @@
     margin-top: -45vh;
     border-radius: 25px;
     border: 5px solid  rgb(39, 188, 214);
+    z-index: +10;
 }
 .Pagesettings-logo{
     width: 50vw;
     position: absolute;
     left: 14.5vw;
     top: 3vh;
+}
+.Pagesettings-X{
+    width: 5vw;
+    position: fixed;
+    right: 14vw;
+    top: 9vh;
 }
 .Pixlefont{
     font-family: 'Press Start 2P';
