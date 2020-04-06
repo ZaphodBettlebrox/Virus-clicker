@@ -1,3 +1,113 @@
-.storePage{
-    display: none;
+.storePage {
+  display: none;
+}
+.Pagestore-logo {
+  margin-top: 4vh;
+  width: 50vw;
+  z-index: 1;
+}
+.storemoney {
+  margin-top: 2vh;
+  z-index: 1;
+}
+.storeheader {
+  background: rgb(0, 0, 0);
+  padding-bottom: 1vh;
+  z-index: 1;
+  position: absolute;
+  width: 100vw;
+  top: 0;
+}
+.storescroll {
+  background: black;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  padding-top: 17vh;
+  padding-bottom: 10vh;
+  overflow: scroll;
+}
+.minivirus1 {
+  z-index: -1;
+  width: 7vw;
+  right: -10vw;
+  top: 1vh;
+  position: fixed;
+  animation-name: mini;
+  animation-iteration-count: infinite;
+  animation-duration: 4.2s;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+}
+.minivirus2 {
+  z-index: -1;
+  width: 7vw;
+  right: -10vw;
+  top: 4vh;
+  position: fixed;
+  animation-name: mini;
+  animation-iteration-count: infinite;
+  animation-duration: 7s;
+  animation-timing-function: linear;
+  animation-delay: 1s;
+}
+.minivirus3 {
+  z-index: -1;
+  width: 7vw;
+  right: -10vw;
+  top: 5vh;
+  position: fixed;
+  animation-name: mini;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-delay: 4s;
+}
+.minivirus4 {
+  z-index: -1;
+  width: 7vw;
+  top: 9vh;
+  right: -10vw;
+  position: fixed;
+  animation-name: mini;
+  animation-iteration-count: infinite;
+  animation-duration: 6s;
+  animation-timing-function: linear;
+  animation-delay: 4.5s;
+}
+.minivirus5 {
+  z-index: -1;
+  width: 7vw;
+  top: 12vh;
+  right: -10vw;
+  position: fixed;
+  animation-name: mini;
+  animation-iteration-count: infinite;
+  animation-duration: 4.5s;
+  animation-timing-function: linear;
+  animation-delay: 3s;
+}
+.minivirus6 {
+  z-index: -1;
+  width: 7vw;
+  top: 14vh;
+  right: -10vw;
+  position: fixed;
+  animation-name: mini;
+  animation-iteration-count: infinite;
+  animation-duration: 6.5s;
+  animation-timing-function: linear;
+  animation-delay: 5s;
+}
+@keyframes mini{
+  0% {
+    right: -10vw;
+  }
+  50% {
+    right: 100vw;
+  }
+  100% {
+    right: 100vw;
+  }
 }

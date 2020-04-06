@@ -3,6 +3,7 @@
     right: 2vw;
     top: 1.2vh;
     position: absolute;
+    z-index: 2;
 }
 
 .settings-gear{
@@ -10,9 +11,12 @@
     position: absolute;
     right: 24vw;
     top: 1vh;
+    z-index: 2;
 }
 .settings-button{
     border: 0;
     padding: 0;
+   
+ 
 }
 

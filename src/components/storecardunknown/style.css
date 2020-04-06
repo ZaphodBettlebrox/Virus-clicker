@@ -1,0 +1,19 @@
+.storecardunknown{
+    width: 100vw;
+    height: 13vh;
+    background: rgb(102, 102, 102);
+    margin-top: 1vh;
+}
+.scpicture{
+    max-width: 19vw;
+    max-height: 10vh;
+    
+    
+}
+.storecardimgunknown{
+    padding-top: 1vh;
+    position: absolute;
+    width: 23vw;
+    height: 12vh;
+    filter: drop-shadow(4px 5px  rgb(59, 59, 59));
+}
