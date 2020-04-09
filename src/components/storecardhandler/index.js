@@ -1,84 +1,76 @@
-import React from "react";
+import React, { Component } from "react";
 import "./style.css";
 import Scard from "../storecard";
-import storelist from "../store.json";
+import storelists from "../store.json";
 import Unknown from "../storecardunknown";
+import Storecard from "../storecard";
 
-function Storecardhandler() {
-  // function here
+class Storecardhandler extends Component {
+  
+  state = {
+    storelists
+  };
 
-  return (
-    <div>
-      <div id="cardbat">
-        <Scard
-          name={storelist[0].name}
-          image={storelist[0].image}
-          desc={storelist[0].description}
-          background={storelist[0].background}
+  BuyCard = id => {
+    console.log("buy "+id);
+    
+    // maybe??
+    // this.state.storelists
+    
+    document.querySelector(".scbuy").classList.add("buyclick");
+    setTimeout(function () {
+      document.querySelector(".scbuy").classList.remove("buyclick");
+    }, 690);
+  };
 
-        />
-      </div>
-      <div id="cardhuman">
-        <Scard
-          name={storelist[1].name}
-          image={storelist[1].image}
-          desc={storelist[1].description}
-          background={storelist[1].background}
+  Descriptionshow = id => {
+    console.log("description of "+id);
 
-        />
-      </div>
-      <div id="cardrestraunt">
-        <Scard
-          name={storelist[2].name}
-          image={storelist[2].image}
-          desc={storelist[2].description}
-          background={storelist[2].background}
+    const arrowup = document.querySelector(".arrowup");
+    const arrowdown = document.querySelector(".arrowdown");
+    const desc = document.querySelector(".storecarddesc");
+    if (arrowdown.style.display === "none") {
+      arrowdown.style.display = "block";
+      arrowup.style.display = "none";
+      desc.style.display = "none";
+    } else {
+      arrowdown.style.display = "none";
+      arrowup.style.display = "block";
+      desc.style.display = "block";
+    }
+  }
 
-        />
-      </div>
-      <div id="cardhotel">
-        <Scard
-          name={storelist[3].name}
-          image={storelist[3].image}
-          desc={storelist[3].description}
-          background={storelist[3].background}
 
-        />
-      </div>
-      <div id="cardairport">
-        <Scard
-          name={storelist[4].name}
-          image={storelist[4].image}
-          desc={storelist[4].description}
-          background={storelist[4].background}
+  render() {
+    return (
+      // <Storecard Buybutton={this.Buybutton}/>
+      // <Storecard Description={this.Description}/>
 
-        />
-      </div>
-      <div id="cardtown">
-        <Scard
-          name={storelist[5].name}
-          image={storelist[5].image}
-          desc={storelist[5].description}
-          background={storelist[5].background}
+      <div>
+        <div>
+          {this.state.storelists.map(storelist => (
+            <Scard
+              Descriptionshow={this.Descriptionshow}
+              BuyCard={this.BuyCard}
+              id={storelist.id}
+              key={storelist.id}
+              name={storelist.name}
+              image={storelist.image}
+              desc={storelist.description}
+              background={storelist.background}
+            />
+          ))}
+        </div>
 
-        />
-      </div>
-      <div id="cardcity">
-        <Scard
-          name={storelist[6].name}
-          image={storelist[6].image}
-          desc={storelist[6].description}
-          background={storelist[6].background}
-
-        />
-      </div>
-      <div id="cardunknown">
-        <Unknown/>
-      </div>
-      <div className="storeempty">
+        <div id="cardunknown">
+          <Unknown />
+        </div>
+        <div className="storeempty"></div>
+        
+        <Storecard Description={this.Description}/>
 
       </div>
-    </div>
-  );
+    );
+  }
 }
 export default Storecardhandler;

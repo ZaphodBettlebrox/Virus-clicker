@@ -3,6 +3,7 @@
   height: 13vh;
   margin-top: 1vh;
   text-shadow: -3px 0 black, 0 2px black, 3px 0 black, 0 -2px black;
+  position: relative;
 }
 .storecardbackground{
     width: 100vw;
@@ -42,9 +43,7 @@
     position: relative;
     text-align: center;
 }
-.storecardtitleup{
-    z-index: 3;
-}
+
 .storecardcost {
   margin-top: 4vh;
   position: absolute;
@@ -73,7 +72,7 @@
   background: rgb(0, 0, 0);
   width: 100vw;
   height: 30vh;
-  margin-top: 9vh;
+  margin-top: 4vh;
   z-index: 1;
   display: none;
 }
