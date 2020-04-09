@@ -26,29 +26,39 @@
   overflow: hidden;
 }
 
-
+.virus1{
+    height: 100%;
+  width: 100%;
+    /* position: fixed; */
+  /* top: 00%; */
+  /* left: 50%; */
+  margin-top: 40%;
+  /* margin-left: -100px; */
+}
 .x1 {
-  animation: xaxis1 2s linear 2s infinite normal;
+  animation: xaxis1 3s linear 2s infinite normal;
   z-index: -2 !important;
   position: fixed;
 }
 
 .y1 {
+    height: 10%;
+  width: 10%;
   animation: yaxis1 3s linear 2s infinite normal;
 }
 
 @keyframes xaxis1 {
   0% {
-    transform: translateX(calc(100vw - 100vw));
+    transform: translateX(calc(100vw - 50vw));
   }
   25% {
-    transform: translateX(calc(100vw - 100vw));
+    transform: translateX(calc(100vw - 40vw));
   }
   50% {
-    transform: translateX(calc(100vw - 100vw));
+    transform: translateX(calc(100vw - 30vw));
   }
   100% {
-    transform: translateX(calc(100vw - 100vw));
+    transform: translateX(calc(100vw -  40vw));
   }
 }
 @keyframes yaxis1 {
@@ -56,7 +66,7 @@
     transform: translateY(calc(100vh - 100vh)) scale(0.5);
   }
   100% {
-    transform: translateY(calc(100vh - 1vh)) scale(3);
+    transform: translateY(calc(100vh - 0vh)) scale(3);
   }
 }
 
@@ -67,6 +77,8 @@
 }
 
 .y2 {
+    height: 10%;
+  width: 10%;
   animation: yaxis2 3s linear infinite normal;
 }
 
@@ -93,3 +105,129 @@
     transform: translateY(calc(100vh - 1vh)) scale(3);
   }
 }
+.x3 {
+    animation: xaxis3 2s linear infinite normal;
+    z-index: 0 !important;
+    position: fixed;
+
+  }
+  
+  .y3 {
+    height: 10%;
+    width: 10%;
+    animation: yaxis3 3s linear infinite normal;
+  }
+  
+  @keyframes xaxis3 {
+    0% {
+      transform: translateX(calc(100vw - 50vw));
+    }
+    25% {
+      transform: translateX(calc(100vw - 60vw));
+    }
+    50% {
+      transform: translateX(calc(100vw - 65vw));
+    }
+    100% {
+      transform: translateX(calc(100vw - 50vw));
+    }
+  }
+  
+  @keyframes yaxis3 {
+    0% {
+      transform: translateY(calc(100vh - 90vh)) scale(0.5);
+    }
+    50% {
+        transform: translateY(calc(100vh - 65vh));
+      }
+    100% {
+      transform: translateY(calc(100vh - 110vh)) scale(3);
+    }
+  }
+  
+  .x4 {
+
+    animation: xaxis4 4s linear infinite normal;
+    z-index: 0 !important;
+    position: fixed;
+  }
+  
+  .y4 {
+    height: 10%;
+    width: 10%;
+    animation: yaxis4 4s linear infinite normal;
+  }
+  
+  @keyframes xaxis4 {
+    0% {
+      transform: translateX(calc(100vw - 30vw));
+    }
+    25% {
+      transform: translateX(calc(100vw - 40vw));
+    }
+    50% {
+      transform: translateX(calc(100vw - 65vw));
+    }
+    100% {
+      transform: translateX(calc(100vw - 110vw));
+    }
+  }
+  
+  @keyframes yaxis4 {
+    0% {
+      transform: translateY(calc(100vh - 90vh)) scale(0.5);
+    }
+    25% {
+        transform: translateY(calc(100vh - 60vh));
+      }
+      50% {
+        transform: translateY(calc(100vh - 80vh))scale(2);
+      }
+
+    100% {
+      transform: translateY(calc(100vh - 110vh)) scale(3);
+    }
+  }
+
+  .x5 {
+    animation: xaxis5 5s linear infinite normal;
+    z-index: -2 !important;
+    position: fixed;
+  }
+  
+  .y5 {
+    height: 10%;
+    width: 10%;
+    animation: yaxis5 5s linear infinite normal;
+  }
+  
+  @keyframes xaxis5 {
+    0% {
+      transform: translateX(calc(100vw - 50vw));
+    }
+    25% {
+      transform: translateX(calc(100vw - 60vw));
+    }
+    50% {
+      transform: translateX(calc(100vw - 70vw));
+    }
+    100% {
+      transform: translateX(calc(100vw - 80vw));
+    }
+  }
+  
+  @keyframes yaxis5 {
+    0% {
+      transform: translateY(calc(100vh - 90vh)) scale(0.5);
+    }
+    25% {
+        transform: translateY(calc(100vh - 60vh));
+      }
+      50% {
+        transform: translateY(calc(100vh - 20vh));
+      }
+
+    100% {
+      transform: translateY(calc(100vh - 0vh)) scale(3);
+    }
+  }
