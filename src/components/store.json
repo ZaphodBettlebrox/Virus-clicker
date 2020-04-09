@@ -11,9 +11,9 @@
     },
     {
         "id": 2,
-        "name": "Human",
+        "name": "Shopper",
         "image": "https://res.cloudinary.com/dbwbzapre/image/upload/v1586064063/shopperpixel_xqaqyj.png",
-        "description": "Imma human",
+        "description": "Imma shopper",
         "background":"https://res.cloudinary.com/dbwbzapre/image/upload/v1586148054/shopperbackgroundpixel_qhkays.png"
 
     },
