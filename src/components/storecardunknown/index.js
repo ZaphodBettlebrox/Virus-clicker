@@ -12,7 +12,7 @@ function Storecardunknown(props) {
         <p className="storecardtitle">???</p>
       </div>
 
-      <p className="storecardcost">?????????</p>
+      <p className="storecardcost">??????????</p>
       <div>
         <p className="storecardowned">NA</p>
       </div>
