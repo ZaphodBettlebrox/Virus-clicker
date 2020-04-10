@@ -6,19 +6,6 @@ import "../../hover.css";
 
 class PageClicker extends React.Component {
 
-  Clickerbobdown() {
-    const test = document.querySelector(".virus1");
-    // test.style.width=90%
-      // document.querySelector(".virus1").classList.add("virusbobdown");
-    
-  }
-
-  Clickerbobup(){
-    // document.querySelector(".virus1").classList.add("virusbobup");
-    // setTimeout(function () {
-    //   document.querySelector(".virus1").classList.remove("virusbobdown");
-    // }, 999);
-  }
 
   render() {
 
