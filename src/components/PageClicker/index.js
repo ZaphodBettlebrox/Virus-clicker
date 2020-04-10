@@ -41,7 +41,7 @@ class PageClicker extends React.Component {
           <img className="y5" src={minivirus} alt="virus"></img>
         </div>
         <div className="backgroundTop"></div>
-        <div className="clicker">
+        <div className="clicker hvr-bounce-out">
           <img
             className="virus1"
             src={virus}
