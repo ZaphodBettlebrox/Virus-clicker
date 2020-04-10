@@ -46,8 +46,7 @@ class PageClicker extends React.Component {
             className="virus1"
             src={virus}
             alt="virus"
-            onMouseDown={this.Clickerbobdown}
-            onMouseUp={this.Clickerbobup}
+    
           ></img>
         </div>
       </div>
